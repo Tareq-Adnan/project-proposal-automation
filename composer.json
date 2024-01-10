@@ -1,0 +1,23 @@
+{
+    "name": "vendor/a",
+    "description": "hello",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\A\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tareq-Adnan",
+            "email": "adnantareq2@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "mpdf/mpdf": "^8.2",
+        "setasign/fpdi": "^2.5",
+        "tecnickcom/tcpdf": "^6.6",
+        "phpoffice/phpword": "^1.1",
+        "smalot/pdfparser": "^2.7"
+    }
+}
